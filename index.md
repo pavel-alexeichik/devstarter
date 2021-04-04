@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+## Редактор кода
+Используй https://playcode.io/new/ для решения задач
 
-You can use the [editor on GitHub](https://github.com/pavel-alexeichik/devstarter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Уровень 0
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Примеры
+Для вывода в консоль используется следующая команда
+```javascript
+console.log("Привет")
+console.log(5)
+console.log(2 + 2)
+console.log(1 + 10 * 10)
+console.log("Привет" + "Леша")
+console.log("Пять плюс пять будет " + (5 + 5))
+console.log("Пять плюс пять не будет " + 5 + 5)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Задачи
+#### Задача 1
+Вывести в консоль строку "Hello, World!".
+ #### Задача 2
+Вывести в консоль строку "Hello, World! Hello, World! Hello, World!"
+#### Задача 3
+Вывести в консоль
+```
+Hello World!
+Hello World!
+Hello World!
+```
 
-### Jekyll Themes
+## Уровень 1
+### Примеры
+Для ввода данных от пользователя можно использовать следующую команду
+```javascript
+var a = window.prompt()
+var b = window.prompt()
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pavel-alexeichik/devstarter/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Зачачи
+#### Задача 1
+Попросить пользователя ввести строку. Вывести в консоль эту строку 1 раз.
+#### Задача 2
+Попросить пользователя ввести строку. Вывести в консоль эту строку 3 раза.
+#### Задача 3
+Попросить пользователя ввести 2 строки. Вывести в консоль 2 строки введенные ползователем.
+Пример:
+- Пользователь вводит "Привет"
+- Пользователь вводит "мир"
+- Программа должна вывести
+```
+Привет
+мир
+```
+#### Задача 4
+Попросить пользователя ввести 2 строки. Вывести в консоль 2 строки введенные ползователем, но в обратном порядке.
+Пример:
+- Пользователь вводит "Привет"
+- Пользователь вводит "мир"
+- Программа должна вывести
+```
+мир
+Привет
+```
